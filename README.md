@@ -14,3 +14,16 @@ A modern, multi-page web application built with Python and Streamlit, featuring 
 - Basic metrics dashboard
 
 ## Project Structure
+
+multipage-app/
+│
+├── pages/
+│   ├── about.py        # About page content
+│   └── contact.py      # Contact page content
+│
+├── .streamlit/
+│   └── config.toml     # Streamlit configuration file
+│
+├── app.py             # Main application file
+├── requirements.txt   # Project dependencies
+└── README.md          # This file
